@@ -1,0 +1,535 @@
+{
+    "materials": [
+      {
+        "id": 0,
+        "title": "Well Proven Chair",
+        "name": ["Marjan van Aubel", "James Shaw"],
+        "web": "http://wellprovenchair.com/about.html",
+        "keyword": [
+          "timber", 
+          "wood",
+          "foam", 
+          "furniture", 
+          "chair", 
+          "rough",
+          "bioresin"],
+        "ingredients": [
+          {
+          "type": ["plant", "bioresin"],
+          "recycle": "timber",
+          "agent": "bioresin"
+          }
+        ],
+        "transformation": "mix",
+        "application": "furniture",
+        "property": "paint",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 1,
+        "title": "Structural Skin",
+        "name": ["Jorge Penades"],
+        "web": "https://materialdistrict.com/article/structural-skin/",
+        "keyword": [
+          "wood", 
+          "furniture",
+          "chair", 
+          "table",
+          "bioresin"],
+        "ingredients": [
+          {
+          "type": ["animal", "bioresin"],
+          "recycle": "leather",
+          "agent": "natural bone glue"
+          }
+        ],
+        "transformation": "heat",
+        "application": "furniture",
+        "property": "material",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 2,
+        "title": "Stone Recycling",
+        "name": ["Tom van Soest"],
+        "web": "https://www.stonecycling.com",
+        "keyword": [
+          "brick", 
+          "commercial",
+          "tile", 
+          "multi-functional"
+        ],
+        "ingredients": [
+          {
+          "type": ["mineral", "plastic"],
+          "recycle": ["plastic","stone"],
+          "agent": null
+          }
+        ],
+        "transformation": "mix",
+        "application": "construction",
+        "property": "tile",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 3,
+        "title": "Materia Madura",
+        "name": ["Ana Cristina Quiñones"],
+        "web": "https://materiamadura.com/",
+        "keyword": [
+          "material", 
+          "commercial",
+          "Puerto Rico", 
+          "stone",
+          "location-based",
+          "coffee",
+          "metal",
+          "banana"
+        ],
+        "ingredients": [
+          {
+          "type": ["plant", "metal", "food"],
+          "recycle": ["coffee", "plantain", "aluminium"],
+          "agent": null
+          }
+        ],
+        "transformation": "mix",
+        "application": "furniture",
+        "property": "material",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 4,
+        "title": "Hot Wire Extension",
+        "name": ["Studio Lilo", "Seongil Choi", "Fabio Hendry"],
+        "web": "https://www.dezeen.com/2015/06/30/studio-ilio-electricity-form-solid-objects-wire-nylon-powder-3d-printing-waste/",
+        "keyword": [
+          "3d-print", 
+          "plastic",
+          "sls", 
+          "pla",
+          "mineral",
+          "structure",
+          "art"
+        ],
+        "ingredients": [
+          {
+          "type": ["plastic", "chemical"],
+          "recycle": ["plastic", "sls"],
+          "agent": "silica sand"
+          }
+        ],
+        "transformation": "heat",
+        "application": "furniture",
+        "property": "material",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 5,
+        "title": "Newspaper Wood",
+        "name": ["Mieke Meijer"],
+        "web": "https://miekemeijer.com/newspaperwood",
+        "keyword": [
+          "wood", 
+          "glue",
+          "furniture", 
+          "construction",
+          "commercial",
+          "tile",
+          "paper"
+        ],
+        "ingredients": [
+          {
+          "type": ["paper", "chemical"],
+          "recycle": ["newspaper", "paper"],
+          "agent": "glue"
+          }
+        ],
+        "transformation": "compress",
+        "application": "construction",
+        "property": "wood",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 6,
+        "title": "Micro Urban Mining",
+        "name": ["Jorien Wiltenburg"],
+        "web": "http://jorienwiltenburg.nl/work19.html",
+        "keyword": [
+          "electronics", 
+          "metal",
+          "knit", 
+          "weave",
+          "textile",
+          "metallic"
+        ],
+        "ingredients": [
+          {
+          "type": ["metal"],
+          "recycle": ["electronic", "aluminium"],
+          "agent": null
+          }
+        ],
+        "transformation": "knit",
+        "application": "textile",
+        "property": "textile",
+        "hard": false,
+        "flexible": true
+      },
+      {
+        "id": 7,
+        "title": "Precious Plastic",
+        "name": ["Dave Hakkens"],
+        "web": "https://preciousplastic.com/",
+        "keyword": [
+          "plastic",
+          "melt",
+          "heat",
+          "heatpress",
+          "machine",
+          "blend",
+          "shred"
+        ],
+        "ingredients": [
+          {
+          "type": ["plastic"],
+          "recycle": ["plastic"],
+          "agent": "plastic"
+          }
+        ],
+        "transformation": "heat",
+        "application": "material",
+        "property": "material",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 8,
+        "title": "Joining Bottles",
+        "name": ["Micaella Pedros"],
+        "web": "https://micaellapedros.com/",
+        "keyword": [
+          "joint",
+          "plastic",
+          "bottle",
+          "furniture",
+          "wood",
+          "mechanic"
+        ],
+        "ingredients": [
+          {
+          "type": ["plastic"],
+          "recycle": ["plastic bottle"],
+          "agent": null
+          }
+        ],
+        "transformation": "heat",
+        "application": "furniture",
+        "property": "construction",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 9,
+        "title": "Forest Pine Wool",
+        "name": ["Tamara Orjola"],
+        "web": "http://tamaraorjola.com/",
+        "keyword": [
+          "pine",
+          "wool",
+          "carpet",
+          "soft",
+          "hard", 
+          "multi-functional", 
+          "furniture",
+          "chair",
+          "heatpress",
+          "plant"
+        ],
+        "ingredients": [
+          {
+          "type": ["plant"],
+          "recycle": ["pine needles"],
+          "agent": null
+          }
+        ],
+        "transformation": "compress",
+        "application": "furniture",
+        "property": "textile",
+        "hard": false,
+        "flexible": false
+      },
+      {
+        "id": 10,
+        "title": "Reconfiguration of a Tree",
+        "name": ["Thomas Vailly"],
+        "web": "http://studiothomasvailly.com/",
+        "keyword": [
+          "bioresin",
+          "bowl",
+          "mug",
+          "mould",
+          "plant"
+        ],
+        "ingredients": [
+          {
+          "type": ["plant", "chemical", "algae"],
+          "recycle": ["pinus pinaster", "lignin", "rosin"],
+          "agent": "cellulose"
+          }
+        ],
+        "transformation": "compress",
+        "application": "furniture",
+        "property": "textile",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 11,
+        "title": "Willow Project",
+        "name": ["Iceland Academy of the Arts"],
+        "web": "https://www.dezeen.com/2016/03/18/iceland-academy-arts-product-design-students-willow-project-materials-range-designmarch-2016/",
+        "keyword": [
+          "willow",
+          "plant"
+        ],
+        "ingredients": [
+          {
+          "type": ["plant", "water"],
+          "recycle": ["willow", "branches"],
+          "agent": "water"
+          }
+        ],
+        "transformation": "heat",
+        "application": "pigment",
+        "property": "paint",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 12,
+        "title": "Sea Me Collection",
+        "name": ["Studio Nienke Hoogvliet"],
+        "web": "https://www.nienkehoogvliet.nl/",
+        "keyword": [
+          "seaweed",
+          "algae",
+          "translucent",
+          "soft",
+          "textile",
+          "chair",
+          "weave"
+        ],
+        "ingredients": [
+          {
+          "type": ["algae"],
+          "recycle": ["seaweed"],
+          "agent": null
+          }
+        ],
+        "transformation": "heat",
+        "application": "dye",
+        "property": "paint",
+        "hard": false,
+        "flexible": false
+      },
+      {
+        "id": 13,
+        "title": "Terroir",
+        "name": ["Jonas Edvard", "Nikolaj Steenfatt"],
+        "web": "https://jonasedvard.dk/work/terroir/",
+        "keyword": [
+          "seaweed",
+          "composite",
+          "chair", 
+          "rough",
+          "furniture",
+          "hard"
+        ],
+        "ingredients": [
+          {
+          "type": ["algae"],
+          "recycle": ["seaweed"],
+          "agent": null
+          }
+        ],
+        "transformation": "dry",
+        "application": "furniture",
+        "property": "paint",
+        "hard": false,
+        "flexible": false
+      },
+      {
+        "id": 14,
+        "title": "Cochayuyo",
+        "name": ["Sisa Collection"],
+        "web": "https://www.sisacollection.com/cochayuyo",
+        "keyword": [
+          "clothing", 
+          "textile",
+          "hard"
+        ],
+        "ingredients": [
+          {
+          "type": ["algae"],
+          "recycle": ["bull kelp"],
+          "agent": null
+          }
+        ],
+        "transformation": "dry",
+        "application": "textile",
+        "property": "textile",
+        "hard": false,
+        "flexible": true
+      },
+      {
+        "id": 15,
+        "title": "Cornspan and From Chiang Mai",
+        "name": ["Apilada Vorachart"],
+        "web": "https://materialdistrict.com/material/cornspan/",
+        "keyword": [
+          "panel",
+          "sound",
+          "thermal insulation",
+          "music"
+        ],
+        "ingredients": [
+          {
+          "type": ["plant"],
+          "recycle": ["corn husk", "charcoal"],
+          "agent": null
+          }
+        ],
+        "transformation": "heat",
+        "application": "material",
+        "property": "material",
+        "hard": true,
+        "flexible": true
+      },
+      {
+        "id": 16,
+        "title": "Solidwool",
+        "name": ["Justin Floyd", "Hannah Floyd"],
+        "web": "https://www.solidwool.com/about",
+        "keyword": [
+          "furniture"
+        ],
+        "ingredients": [
+          {
+          "type": ["animal", "bioresin"],
+          "recycle": ["sheep wool"],
+          "agent": "bioresin"
+          }
+        ],
+        "transformation": "heat",
+        "application": "furniture",
+        "property": "furniture",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 17,
+        "title": "From Insects",
+        "name": ["Marlene Huissoud"],
+        "web": "https://www.marlene-huissoud.com/from-insects-product/",
+        "keyword": [
+          "natural",
+          "bio-resin",
+          "glass",
+          "clay"
+        ],
+        "ingredients": [
+          {
+          "type": ["animal", "insect"],
+          "recycle": ["cocoon", "silkworm"],
+          "agent": ["black propolis", "bee resin"]
+          }
+        ],
+        "transformation": "heat",
+        "application": "glass",
+        "property": "resin",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 18,
+        "title": "Merdacotta",
+        "name": ["Gianantonio Locatelli", "Luca Cipelletti"],
+        "web": "http://www.theshitmuseum.org/about/",
+        "keyword": [
+          "brick",
+          "hard",
+          "furniture",
+          "installation"
+        ],
+        "ingredients": [
+          {
+          "type": ["animal", "mineral", "plant"],
+          "recycle": ["cow dung", "straw"],
+          "agent": ["clay"]
+          }
+        ],
+        "transformation": "mix",
+        "application": "material",
+        "property": "rock",
+        "hard": true,
+        "flexible": false
+      },
+      {
+        "id": 19,
+        "title": "Mestic",
+        "name": ["Jalila Essaidi"],
+        "web": "https://jalilaessaidi.com/cowmanure/",
+        "keyword": [
+          "biotextiles",
+          "bioplastic",
+          "paper",
+          "textile",
+          "cellulose-derivatives"
+        ],
+        "ingredients": [
+          {
+          "type": ["animal", "chemical"],
+          "recycle": ["manure"],
+          "agent": ["cellulose"]
+          }
+        ],
+        "transformation": "grow",
+        "application": "textile",
+        "property": "bioplastic",
+        "hard": false,
+        "flexible": true
+      },
+      {
+        "id": 20,
+        "title": "The New Age of Trichology",
+        "name": ["Sanne Visser"],
+        "web": "https://cargocollective.com/sannevisser/The-New-Age-of-Trichology",
+        "keyword": [
+          "hair",
+          "fabric",      
+          "fishing",
+          "textile",
+          "net"
+        ],
+        "ingredients": [
+          {
+          "type": ["human", "chemical"],
+          "recycle": ["hair"],
+          "agent": ["resin"]
+          }
+        ],
+        "transformation": "knit",
+        "application": "textile",
+        "property": "textile",
+        "hard": false,
+        "flexible": false
+      }
+    ]
+  }
